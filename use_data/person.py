@@ -22,5 +22,11 @@ class Person:
     
     def get_second_name(self):
         return self.second_name
+
+    def set_last_name(self, last_name: str):
+        self.last_name = last_name
+
+    def get_last_name(self):
+        return self.last_name
     
     
